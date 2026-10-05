@@ -1,0 +1,51 @@
+{
+  "report_id": "CMRPI-20260829-023938",
+  "generated_at": "2026-08-29T02:39:38.904404",
+  "source": "URLhaus - Abuse.ch",
+  "_note": "Exemple anonymise : IPs remplacees par des plages de documentation (RFC 5737) et URLs defangees.",
+  "summary": {
+    "total_analyzed": 4,
+    "malicious_detected": 4,
+    "new_malicious_detected": 2,
+    "benign": 0,
+    "detection_rate": "100.0%"
+  },
+  "alerts": [
+    {
+      "url": "hxxp://192.0.2[.]163:45781/i",
+      "prediction": "MALICIOUS",
+      "confidence": 100.0,
+      "detection_method": "MACHINE LEARNING",
+      "status": "online",
+      "timestamp": "2026-08-29T02:39:38.877687",
+      "is_new": true
+    },
+    {
+      "url": "hxxp://192.0.2[.]163:45781/bin.sh",
+      "prediction": "MALICIOUS",
+      "confidence": 99.91,
+      "detection_method": "MACHINE LEARNING",
+      "status": "online",
+      "timestamp": "2026-08-29T02:39:38.877941",
+      "is_new": true
+    },
+    {
+      "url": "hxxp://198.51.100[.]115:48397/i",
+      "prediction": "MALICIOUS",
+      "confidence": 100.0,
+      "detection_method": "MACHINE LEARNING",
+      "status": "online",
+      "timestamp": "2026-08-29T02:39:38.878164",
+      "is_new": false
+    },
+    {
+      "url": "hxxp://203.0.113[.]110:45518/i",
+      "prediction": "MALICIOUS",
+      "confidence": 100.0,
+      "detection_method": "MACHINE LEARNING",
+      "status": "online",
+      "timestamp": "2026-08-29T02:39:38.878576",
+      "is_new": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# ── Secrets ──────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ── Python ───────────────────────────────────
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ── Node / Frontend ──────────────────────────
+node_modules/
+dashboard/dist/
+
+# ── IDE ──────────────────────────────────────
+.idea/
+.vscode/
+
+# ── Modèles (distribués via GitHub Releases) ──
+models/*.pkl
+models/*.joblib
+models/*.zip
+
+# ── Données ──────────────────────────────────
+data/malicious_phish.csv
+data/alert_report_*.json
+data/seen_alerts.json
+!data/sample_alert_report.json
+
+# ── OS ───────────────────────────────────────
+Thumbs.db
+.DS_Store
