@@ -31,3 +31,8 @@ data/seen_alerts.json
 # ── OS ───────────────────────────────────────
 Thumbs.db
 .DS_Store
+
+# ── Artefacts de release (publiés via GitHub Releases) ──
+release/
+
+
